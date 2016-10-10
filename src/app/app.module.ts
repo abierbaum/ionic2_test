@@ -6,6 +6,8 @@ import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 import { TabsPage } from '../pages/tabs-page/tabs-page';
 import { TabContent } from '../pages/tabs-page/tab-content';
+import { ScratchPage } from '../pages/scratch-page/scratch';
+import { TabDemoPage, TabPage } from '../pages/tab-demo/tab_demo';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,9 @@ import { TabContent } from '../pages/tabs-page/tab-content';
     ListPage,
     TabsPage,
     TabContent,
+    ScratchPage,
+    TabDemoPage,
+    TabPage,
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -27,6 +32,9 @@ import { TabContent } from '../pages/tabs-page/tab-content';
     ListPage,
     TabsPage,
     TabContent,
+    ScratchPage,
+    TabDemoPage,
+    TabPage,
   ],
   providers: []
 })

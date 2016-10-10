@@ -7,6 +7,8 @@ import { StatusBar } from 'ionic-native';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ListPage } from '../pages/list/list';
 import { TabsPage } from '../pages/tabs-page/tabs-page';
+import { ScratchPage } from '../pages/scratch-page/scratch';
+import { TabDemoPage } from '../pages/tab-demo/tab_demo';
 
 
 @Component({
@@ -29,7 +31,9 @@ export class MyApp {
     this.pages = [
       { title: 'Hello Ionic', component: HelloIonicPage },
       { title: 'My First List', component: ListPage },
-      { title: 'Tabs Page', component: TabsPage }
+      { title: 'Tabs Page', component: TabsPage },
+      { title: 'Scratch', component: ScratchPage },
+      { title: 'Tab Demo', component: TabDemoPage },
     ];
   }
 
